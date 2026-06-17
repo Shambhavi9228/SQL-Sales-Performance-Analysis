@@ -1,0 +1,22 @@
+CREATE TABLE sales (
+    order_id VARCHAR2(50),
+    order_date DATE,
+    ship_date DATE,
+    ship_mode VARCHAR2(50),
+    customer_id VARCHAR2(50),
+    customer_name VARCHAR2(100),
+    segment VARCHAR2(50),
+    country VARCHAR2(50),
+    city VARCHAR2(50),
+    state VARCHAR2(50),
+    postal_code NUMBER,
+    region VARCHAR2(50),
+    product_id VARCHAR2(50),
+    category VARCHAR2(50),
+    sub_category VARCHAR2(50),
+    product_name VARCHAR2(200),
+    sales NUMBER,
+    quantity NUMBER,
+    discount NUMBER,
+    profit NUMBER
+);
