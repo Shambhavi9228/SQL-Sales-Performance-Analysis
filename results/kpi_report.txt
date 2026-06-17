@@ -1,0 +1,11 @@
+SQL Sales Performance Analysis
+
+Top Customer:
+Sean Miller - 25043.05
+
+Key Analysis:
+- Revenue trends analyzed
+- Regional sales performance evaluated
+- Category-wise sales analyzed
+- Top products identified
+- Customer spending behavior examined
