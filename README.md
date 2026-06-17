@@ -2,36 +2,76 @@
 
 ## Overview
 
-This project demonstrates SQL-based sales performance analysis using transactional sales data. The objective is to analyze revenue trends, customer purchasing behavior, and product performance using SQL queries.
+This project focuses on analyzing sales transaction data using SQL and Python-based analytics techniques. The objective is to evaluate revenue trends, customer purchasing behavior, regional sales performance, and product profitability to generate business insights.
+
+---
 
 ## Features
 
 * Revenue Analysis
 * Customer Behavior Analysis
 * Product Performance Analysis
-* Category Performance Evaluation
 * Regional Sales Analysis
+* Category-wise Performance Evaluation
 * Business Insight Generation
+* Data Visualization
+
+---
 
 ## Technologies Used
 
 * SQL
 * Oracle Database
-* Excel
-* Data Analytics
+* Python
+* Pandas
+* Matplotlib
+
+---
 
 ## Dataset
 
-Sample Superstore Dataset containing sales transactions, customer information, product details, and profitability metrics.
+Sample Superstore Dataset containing customer orders, product information, sales transactions, and profitability metrics.
 
-## Business Questions Answered
+---
 
-1. What is the total revenue generated?
-2. What is the total profit earned?
-3. Which regions generate the highest sales?
-4. Who are the top customers?
-5. Which products generate the highest revenue?
-6. Which categories are most profitable?
+## Project Workflow
+
+1. Data Collection
+2. Data Preparation
+3. SQL Query Development
+4. Revenue Analysis
+5. Customer Analysis
+6. Product Analysis
+7. Visualization
+8. Business Insights Generation
+
+---
+
+## Results
+
+### Sales by Region
+
+![Sales by Region](results/sales_by_region.png)
+
+### Sales by Category
+
+![Sales by Category](results/sales_by_category.png)
+
+### Top Products
+
+![Top Products](results/top_products.png)
+
+---
+
+## Key Insights
+
+* Identified top-performing customers based on total sales.
+* Analyzed regional sales distribution and revenue contribution.
+* Evaluated category-wise business performance.
+* Determined top-selling products.
+* Generated business insights to support strategic decision-making.
+
+---
 
 ## SQL Analysis
 
@@ -48,13 +88,15 @@ Sample Superstore Dataset containing sales transactions, customer information, p
 
 ### Product Analysis
 
-* Top Performing Products
-* Category-wise Sales
+* Top Products by Revenue
+* Category Performance
 
 ### Regional Analysis
 
-* Sales by Region
-* Profit by State
+* Regional Sales Performance
+* Revenue Distribution
+
+---
 
 ## Project Structure
 
@@ -68,10 +110,21 @@ SQL-Sales-Performance-Analysis/
 │   ├── sales_queries.sql
 │   └── advanced_queries.sql
 │
+├── src/
+│   ├── sales_analysis.py
+│   └── visualization.py
+│
 ├── results/
+│   ├── sales_by_region.png
+│   ├── sales_by_category.png
+│   ├── top_products.png
+│   └── kpi_report.txt
+│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+---
 
 ## Author
 
